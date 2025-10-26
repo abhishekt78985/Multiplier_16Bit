@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dvlsi02
+HostName                       mvlsi02
+ProcessIdentifier              5876
+ProcessCreationTime_UTC        1733395708
+ProcessCreationTime_Readable   Thu Dec  5 16:18:28 2024 IST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/dvlsi02/dvlsi/virtuoso/mylibs/DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH/Booth_Selector/layout/layout.oa.cdslck
+TimeEditLocked                 Thu Dec  5 18:46:53 2024 IST

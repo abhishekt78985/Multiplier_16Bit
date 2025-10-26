@@ -1,0 +1,51 @@
+//Revision 1
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config MULTIPLIER_16BIT2;
+design DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.MULTIPLIER_16BIT2:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.\17_bit_decoder  binding :\17bitdecoderTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.BOOTH_Encoder binding :BoothEncoderTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.BUFFER_16BIT binding :\16bitBufferTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.BUFFER_20BIT binding :\20bitBufferTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.BUFFER_23BIT binding :\23bitBufferTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.BUFFER_26BIT binding :\26bitBufferTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.BUFFER_32BIT binding :\32bitBufferTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.BUFFER_33BIT binding :\33bitBufferTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.Booth_Selector binding :BoothSelectorTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.Buffer binding :BufferTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.CARRY_SKIP_32BIT binding :\32bitcarryskipTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.CARRY_SKIP_4BIT binding :\4bitcarryskipTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.C_S binding :CSTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.DOT_Generator binding :dotGeneratorTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.DVLSI2023_DFFRX1 binding :av_extracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FA_D22 binding :FAD22TypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FA_set1 binding :FAset1TypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FA_set2 binding :FAset2TypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FA_set3 binding :FAset3TypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FA_set4 binding :FAset4TypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FA_set5 binding :FAset5TypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FA_set6 binding :FAset6TypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FA_set7 binding :FAset7TypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FF_16BIT binding :\16bitFFTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FF_26BIT binding :\26bitFFTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FF_29BIT binding :\29bitFFTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.FF_32BIT binding :\32bitFFTypicalExtracted ;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.Inverter binding :inverterTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.Inverter16X binding :inverter16xTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.Inverter4X binding :inverter4xTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.Inverter_Block binding :inverterBlockTypicalExtracted;
+cell DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH.MULTIPLIER binding :MultiplierTypicalExtracted;
+
+
+endconfig

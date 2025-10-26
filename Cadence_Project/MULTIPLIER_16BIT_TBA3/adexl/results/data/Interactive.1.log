@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Dec  5 20:24:54 2024 
+Best design point: 1
+Design specs: 
+	DVLSI2024_MVLSI02_DVLSI03_MVLSI02_DVLSI02_SCH:MULTIPLIER_16BIT_TBA3:1	corner	Nominal - 
+	average(IT("/I13/VDDI"))		1.018m
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Thu Dec  5 20:32:16 2024 
